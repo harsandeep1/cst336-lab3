@@ -1,0 +1,34 @@
+body{
+      text-align: center;
+      /*width:200px;*/
+      /*padding:20px;*/
+}
+
+h1{
+  font-size: 4rem;
+  background-color: #EAD3BC;
+  color: #62A3CC;
+  margin-top: -2rem;
+}
+
+.mainImg{
+      position: absolute;
+      margin-left: -50%;
+      background-color: #62A3CC;
+      padding: 3% 25% 5% 5%;
+      margin-top: -2rem;
+}
+
+.mainForm{
+      /*background-color: #62A3CC;*/
+       /*position: absolute;*/
+      margin-left: 45%;
+      padding: 1% 3% 1% 15%;
+      font-size: 1.3rem;
+      
+}
+
+.footer{
+      text-align: center;
+      margin: 0.5rem auto auto 2rem;
+}
