@@ -29,12 +29,18 @@
                               <div class="col-md-6 mb-3">
                                     <input class="circle" type="text" name="lName" placeholder="Last Name"/><br>
                               </div>
+                              
                         </div>
+                  
                         
                         <div class="form-row">
                               <div class="col-md-6 mb-3">
                                                 <input class="circle" type="text" name="username" id="username" placeholder="Username"/><br>
                                                 <span id="usernameError"></span>
+                              </div>
+                              
+                              <div class="col-md-6 mb-3">
+                                    <input class="circle" type="email" name="email" placeholder="Email Address"/><br>
                               </div>
                         </div>
                         
