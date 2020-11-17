@@ -23,65 +23,71 @@
             <form id="signupForm" action="welcome.html">
                         <div class="form-row">
                               <div class="col-md-6 mb-3">
-                                    <input type="text" name="fName" placeholder="First Name"/><br>
+                                    <input class="circle" type="text" name="fName" placeholder="First Name"/><br>
                               </div>
                               
                               <div class="col-md-6 mb-3">
-                                    <input type="text" name="lName" placeholder="Last Name"/><br>
-                              </div>
-                        </div>
-                        
-                        <div class="form-rom">
-                              <div class="col-md-6 mb-3">
-                                    Gender:     <input type="radio" name="gender" value="m"/> Male
-                                                <input type="radio" name="gender" value="f"/> Female<br>
+                                    <input class="circle" type="text" name="lName" placeholder="Last Name"/><br>
                               </div>
                         </div>
                         
                         <div class="form-row">
                               <div class="col-md-6 mb-3">
-                                    <input type="text" id="zip" name="zip" placeholder="Zip Code"/><br>
-                              </div>
-                              <div class="col-md-6 mb-3">
-                                    State:
-                                                <select name="state" id="state">
-                                                      <option>Select One</option>
-                                                      <option value="ca">California</option>
-                                                      <option value="ny">New York</option>
-                                                      <option value="tx">Texas</option>
-                                                </select><br>
+                                                <input class="circle" type="text" name="username" id="username" placeholder="Username"/><br>
+                                                <span id="usernameError"></span>
                               </div>
                         </div>
                         
                         <div class="form-row">
+                              <div class="col-md-6 mb-3">            
+                                                <input class="circle" type="password" name="password" id="password" placeholder="Password"/><br>
+                                                <input class="circle"type="password" id="passwordAgain" placeholder="Password Again"/>
+                                                <span id="passwordAgainError"></span>
+                                                <span id="passwordLength"></span><br>
+                              </div>
+                        </div> 
+                        
+                        <div class="form-row">
+                              <div  class="col-md-6 mb-3">
+                                    <input class="circle" type="text" id="zip" name="zip" placeholder="Zip Code"/><br>
+                              </div>
                               <div class="col-md-6 mb-3">
                                     City:       <span id="city"></span><br>
                                     Latitude:   <span id="lati"></span><br>
                                     Longitude:  <span id="longi"></span><br>
                           
                               </div>
+                        </div>
+                        
+                        <div class="form-row">
                               <div class="col-md-6 mb-3">
-                                    Select a County: <select id="county"></select><br>
-                              </div>  
+                                    State:
+                                                <select class="circle" name="state" id="state">
+                                                      <option>Select One</option>
+                                                      <option value="ca">California</option>
+                                                      <option value="ny">New York</option>
+                                                      <option value="tx">Texas</option>
+                                                </select><br>
+                              </div>
+                               <div class="col-md-6 mb-3">
+                                    Select a County: <select class="circle" id="county">
+                                          <option>Select One</option>
+                                    </select>
+                              </div> 
+                        </div>
+                        
+                        <div class="form-row">
                               
                         </div>
                         
-                        <div class="form-row">
+                        
+                        <div class="form-rom">
                               <div class="col-md-6 mb-3">
-                                                <input type="text" name="username" id="username" placeholder="Username"/><br>
-                                                <span id="usernameError"></span><br>
+                                    Gender:     <br><input type="radio" name="gender" value="m"/> Male
+                                                <input type="radio" name="gender" value="f"/> Female
                               </div>
                         </div>
                         
-                        <div class="form-row">
-                                    
-                              <div class="col-md-6 mb-3">            
-                                                <input type="password" name="password" id="password" placeholder="Password"/><br>
-                                                <input type="password" id="passwordAgain" placeholder="Password Again"/>
-                                                <span id="passwordAgainError"></span>
-                                                <span id="passwordLength"></span><br> <br>
-                              </div>
-                        </div> 
                         
                         <div class="form-row">
                               <div class="col-md-6 mb-3">
